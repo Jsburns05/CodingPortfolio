@@ -13,8 +13,7 @@ body {
     background-size: cover; 
   }
 
-  
-  
+/*navbar*/
   .topnav {
     overflow: hidden;
     position: relative;
@@ -39,3 +38,36 @@ body {
   .topnav a:hover {
     color: black;
   }
+
+/*hero section*/
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:1024px) {
+
+    .hero {
+        justify-content: flex-start;
+    }
+
+    img {
+        width: 300px;
+        margin: 10rem 0 0 10rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .hero {
+        justify-content: flex-start;
+    }
+
+    img {
+        margin: 10rem 0 0 10rem;
+    }
+}
