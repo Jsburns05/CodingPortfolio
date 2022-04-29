@@ -6,7 +6,7 @@
 
 :root {
   --ff-primary:'Roboto', sans-serif;
-  --ff-secondary: 'Robot', monospace;
+  --ff-secondary: 'Roboto', monospace;
 
   --fw-reg: 300;
   --fw-bold: 900;
@@ -21,14 +21,51 @@
   --fs-body: 1rem;
 }
 
-@media (min-width: 800px) {
-  :root {
-    --fs-h1: 4.5rem;
-    --fs-h2: 3.75rem;
-    --fs-h3: 1.5rem;
-    --fs-body: 1.25rem;
-  }
+@media screen and (min-width: 800px) {
+    h1 {
+      font-size: 4.5rem;
+    }
+    h2 {
+      font-size: 3.75rem;
+    }
+    h3 {
+      font-size: 1.5rem;
+    }
+    body {
+      font-size: 1.25rem;
+    }
 }
+
+/*general styels*/
+
+body {
+  background: var(--clr-bg);
+  color: var(--clr-dark);
+  margin: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+/*topography*/
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+  margin: 0;
+}
+
+h1 { font-size: var(--fs-h1);}
+h2 { font-size: var(--fs-h2);}
+h3 { font-size: var(--fs-h3);}
+
 
 
 
