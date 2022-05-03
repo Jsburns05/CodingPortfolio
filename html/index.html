@@ -10,13 +10,14 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400&display=swap" rel="stylesheet">
+      
   </head>
   <body>
 
                 <!--nav.section-->
   <header>
       <div class="logo">
-        <img src="/images/Jbportfolio.logo.white.png" alt="">
+        <img src="/images/jbportlogo.svg" alt="">
       </div>
       <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
@@ -24,9 +25,9 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a href="#">Home</a></li>
-          <li class="nav__item"><a href="#">Home</a></li>
-          <li class="nav__item"><a href="#">Home</a></li>
-          <li class="nav__item"><a href="#">Home</a></li>
+          <li class="nav__item"><a href="#services">My Services</a></li>
+          <li class="nav__item"><a href="#about">About Me</a></li>
+          <li class="nav__item"><a href="#work">My Work</a></li>
         </ul>
       </nav>
     </header>
@@ -34,15 +35,15 @@
                 <!--intro.section-->
     <section class="intro" id="home">
       <h1 class="section__title section__title--intro">
-        Hi, I am Justin Burns
+        Hi, I am <strong>Justin Burns</strong>
       </h1>
       <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-      <img src="/images/Justin Burns-modified.png" alt="a very good picture of Justin Burns smiling.">
+      <img class="intro__img" src="/images/Justin Burns-modified.png" alt="a very good picture of Justin Burns smiling.">
     </section>
 
                 <!--services.section-->
     <section class="my-services" id="services">
-      <h2 class="section__title section__title--services"></h2>
+      <h2 class="section__title section__title--services">What i do</h2>
       <div class="services">
         <div class="service">
           <h3>Something</h3>
@@ -64,48 +65,68 @@
     </section>
 
                 <!--about.section-->
-    <section class="about-me" id="aboiut">
-      <h2 class="section__titel section__title--about">Who I am</h2>
-      <p class="section__subtitle section__subtitle--about"> </p>
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">Developer based out of MS</p>
 
       <div class="about-me__body">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, sunt. Reprehenderit aliquam aperiam voluptas ea? Eos excepturi dolore dolorum dolor.</p>
       </div>
 
-      <img src="/images/codinglaptop.jpg" alt="a laptop with code on the screen next to plants">
+      <img class="section__about--img" src="/images/codinglaptopclr.jpg" alt="a laptop with code on the screen next to plants">
     </section>
 
                 <!--work.section-->
     <section class="my-work" id="work">
-      <h2 class="section__title">My work</h2>
-      <p class="section__subtitle"></p>
+      <h2 class="section__title--work">My work</h2>
+      <p class="section__subtitle--work">A brief description of my work</p>
 
       <div class="portfolio">
         <!--portfolio item 01-->
         <a href="#" class="portfolio__item">
-          <img src="/images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="" class="portfolio__img">
+          <img src="/images/burnsifythumbnail.png" alt="" class="portfolio__img">
         </a>
 
-        <!--portfolio item 01-->
+        <!--portfolio item 02-->
         <a href="#" class="portfolio__item">
-          <img src="/images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="" class="portfolio__img">
+          <img src="/images/keyboard1.jpg" alt="" class="portfolio__img">
         </a>
 
-        <!--portfolio item 01-->
+        <!--portfolio item 03-->
         <a href="#" class="portfolio__item">
-          <img src="/images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="" class="portfolio__img">
+          <img src="/images/keyboard1.jpg" alt="" class="portfolio__img">
         </a>
       </div>
     </section>
 
                 <!--footer.section-->
     <footer>
-      <a href="mailto:jsburns05@gmail.com" class="footer-link">jsburns05@gmail.com</a>
       <ul class="social-list">
-        <li class="social-list__item"><a class="social-list__link" href="#"></a>A</li>
-        <li class="social-list__item"><a class="social-list__link" href="#"></a>B</li>
-        <li class="social-list__item"><a class="social-list__link" href="#"></a>C</li>
+        <li>
+          <a class="social-list__link" href="#">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="social-list__link" href="https://github.com/Jsburns05">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="social-list__link" href="https://www.facebook.com/jbizzlefashizzle">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        <li>
+          <a class="social-list__link" href="mailto:jsburns05@gmail.com">
+            <i class="fa-solid fa-at"></i>
+        </a>
+        </li>
       </ul>
     </footer>
   </body>
+
+  <script src="/javscript/javascript.js"></script>
+
+  <script src="https://kit.fontawesome.com/d04f7e3426.js" crossorigin="anonymous"></script>
+
 </html>
